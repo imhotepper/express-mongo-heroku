@@ -3,7 +3,6 @@ var Todo = require('../models/TodoModel');
 
 var router = express.Router();
 
-//function init(db){
 function init(){
 //todo gets and post
     router.get('/', (req, res) => {
